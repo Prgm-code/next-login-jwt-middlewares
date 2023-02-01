@@ -28,5 +28,5 @@ export async function middleware(request) {
 }
 
 export const config = {
-    matcher: ['/dashboard', '/profile'] // only apply to these paths
+    matcher: ['/dashboard', '/' , '/admin/:path*' ,] // only apply to these paths
 }
